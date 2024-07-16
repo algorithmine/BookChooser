@@ -1,27 +1,20 @@
-import logo from './logo.svg';
+import {Button} from 'react-bootstrap';
+import coraline from './coraline.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <h1> Hello Adventurer!</h1>
+        <img src={coraline} className="App-logo" alt="logo" />
+        <p> Are you ready to explore?</p>
 
-          Hello World!
-          Learn React
-        </a>
+        <Button> let's go! </Button>
       </header>
     </div>
   );
 }
 
 export default App;
+
